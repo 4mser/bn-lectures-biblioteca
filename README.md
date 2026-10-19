@@ -9,7 +9,7 @@
   <a href="README.en.md">Read in English</a>
 </p>
 
-Cada video de B&N Lectures está hecho de simulaciones: líneas de campo integradas con RK4, un paquete cuántico que cruza una doble rendija, un fluido que nace de ese paquete, rayos que se curvan alrededor de un agujero negro. Esta biblioteca las reúne todas. Son 192 simulaciones y efectos, sacados de la serie de Electricidad y Magnetismo, del reel original y de cada versión del teaser, incluidas las que se habían perdido y se reconstruyeron.
+Cada video de B&N Lectures está hecho de simulaciones: líneas de campo integradas con RK4, un paquete cuántico que cruza una doble rendija, un fluido que nace de ese paquete, rayos que se curvan alrededor de un agujero negro. Esta biblioteca las reúne todas. Son 192 simulaciones y efectos, sacados de la serie de Electricidad y Magnetismo, del reel «De lo discreto a lo continuo» y de cada versión del teaser, incluidas las que se habían perdido y se reconstruyeron.
 
 Cada entrada del catálogo tiene su miniatura, lo que muestra con su ecuación o modelo, el archivo y la función de donde salió, de qué depende y qué tan fácil es reutilizarla. Las piezas más útiles están además copiadas en siete módulos limpios, listos para llevar a otro proyecto.
 
@@ -93,7 +93,7 @@ Para sumar una entrada, agrégala en `datos/catalogo.py` y corre los dos scripts
 | | |
 |---|---|
 | **Nicolás Moreno**<br>[@4mser](https://github.com/4mser) | Cofundador de B&N Solutions e ingeniero de software. Creó el motor de simulación de B&N Lab y desarrolla las animaciones y los videos. |
-| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Cofundador de B&N Solutions e ingeniero físico. Creó el reel original de la serie, «De lo discreto a lo continuo». |
+| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Cofundador de B&N Solutions e ingeniero físico. Autor de la clase «De lo discreto a lo continuo». |
 | **Javier Patiño** | Licenciado en Física y profesor de Electricidad y Magnetismo. Autor de los apuntes en que se basan las clases y la voz de B&N Lectures. |
 
 ### `// 08` Licencia

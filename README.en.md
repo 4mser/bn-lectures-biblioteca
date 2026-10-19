@@ -9,7 +9,7 @@
   <a href="README.md">Leer en español</a>
 </p>
 
-Every B&N Lectures video is made of simulations: field lines integrated with RK4, a quantum packet crossing a double slit, a fluid born from that packet, light rays bending around a black hole. This library gathers all of them. There are 192 simulations and effects, taken from the Electricity and Magnetism series, the original reel and every version of the teaser, including the ones that had been lost and were rebuilt.
+Every B&N Lectures video is made of simulations: field lines integrated with RK4, a quantum packet crossing a double slit, a fluid born from that packet, light rays bending around a black hole. This library gathers all of them. There are 192 simulations and effects, taken from the Electricity and Magnetism series, the reel «De lo discreto a lo continuo» and every version of the teaser, including the ones that had been lost and were rebuilt.
 
 Each catalog entry has a thumbnail, what it shows with its equation or model, the file and function it came from, what it depends on and how easy it is to reuse. The most useful pieces are also copied into seven clean modules, ready to take to another project. The catalog and the module notes are written in Spanish.
 
@@ -93,7 +93,7 @@ To add an entry, add it to `datos/catalogo.py` and run both scripts. Paths in th
 | | |
 |---|---|
 | **Nicolás Moreno**<br>[@4mser](https://github.com/4mser) | Co-founder of B&N Solutions and software engineer. Created the B&N Lab simulation engine and builds the animations and the videos. |
-| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Co-founder of B&N Solutions and physics engineer. Made the series' original reel, «De lo discreto a lo continuo». |
+| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Co-founder of B&N Solutions and physics engineer. Author of the lesson «De lo discreto a lo continuo». |
 | **Javier Patiño** | Physics graduate and Electricity and Magnetism lecturer. Author of the notes the classes are based on, and the voice of B&N Lectures. |
 
 ### `// 08` License

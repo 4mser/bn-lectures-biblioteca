@@ -11,7 +11,7 @@ CABEZA = """# Catálogo de simulaciones B&N
 
 [← Volver al README](README.md)
 
-Este es el catálogo de todas las simulaciones y efectos de los videos de B&N: la serie de electromagnetismo, el reel original y todas las versiones del teaser de B&N Lectures, incluidas las que se habían sobrescrito y se recuperaron de las transcripciones de los agentes.
+Este es el catálogo de todas las simulaciones y efectos de los videos de B&N: la serie de electromagnetismo, el reel «De lo discreto a lo continuo» y todas las versiones del teaser de B&N Lectures, incluidas las que se habían sobrescrito y se recuperaron de las transcripciones de los agentes.
 
 - **Catálogo:** {n} simulaciones y efectos, agrupados por tipo y con una miniatura cada uno (`miniaturas/<id>.png`).
 - **`modulos/`:** copias limpias de las piezas más reutilizables, cada una con un `LEEME.md` que explica cómo integrarla.
@@ -42,7 +42,7 @@ Las rutas de las columnas «Dónde» y del mapa de versiones son relativas a la 
 
 | Proyecto | Commit | Videos en `entregables/` |
 |---|---|---|
-| Reel original `BN_Electromagnetismo` (repo de un tercero; solo lectura) | ccf0600 | `0-De-lo-discreto-a-lo-continuo.mp4`, `-16x9.mp4` y `-9x16.mp4` |
+| Reel «De lo discreto a lo continuo» `BN_Electromagnetismo` (repo de un tercero; solo lectura) | ccf0600 | `0-De-lo-discreto-a-lo-continuo.mp4`, `-16x9.mp4` y `-9x16.mp4` |
 | `del-ambar-a-millikan` | 7cca2ba | `1-Del-ambar-a-la-carga-elemental*.mp4` |
 | `ley-de-coulomb` | 1da4211 | `2-La-ley-de-Coulomb*.mp4` |
 | `lineas-de-campo` | 8d72675 | `3-El-campo-electrico-y-sus-lineas*.mp4` |
