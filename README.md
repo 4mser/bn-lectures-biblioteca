@@ -79,6 +79,8 @@ Cada entrada del catálogo tiene su miniatura, lo que muestra con su ecuación o
 
 Para una clase nueva conviene partir de la plantilla de [bn-lectures-clases](https://github.com/4mser/bn-lectures-clases/tree/main/plantilla), que ya trae `lab-serie`, las fuentes y las herramientas de render. Para algo en la línea del teaser, el proyecto completo está en [bn-lectures-teaser](https://github.com/4mser/bn-lectures-teaser).
 
+Este catálogo reúne simulaciones de video, que se calculan cuadro a cuadro. Las versiones interactivas, que corren en el navegador y responden al cursor, están en [bn-lab-simulations](https://github.com/4mser/bn-lab-simulations): cuarenta experimentos, entre ellos Lorenz, la doble rendija, Chladni, Gray-Scott, Ising, Mandelbrot y el fluido de Navier-Stokes, con su validación numérica.
+
 ### `// 06` Mantener el catálogo
 
 ```bash

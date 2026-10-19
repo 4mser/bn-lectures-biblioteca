@@ -79,6 +79,8 @@ Each catalog entry has a thumbnail, what it shows with its equation or model, th
 
 For a new lesson, start from the template in [bn-lectures-clases](https://github.com/4mser/bn-lectures-clases/tree/main/plantilla), which already brings `lab-serie`, the fonts and the render tools. For something along the lines of the teaser, the full project is in [bn-lectures-teaser](https://github.com/4mser/bn-lectures-teaser).
 
+This catalog gathers video simulations, computed frame by frame. The interactive versions, which run in the browser and respond to the cursor, are in [bn-lab-simulations](https://github.com/4mser/bn-lab-simulations): forty experiments, including Lorenz, the double slit, Chladni, Gray-Scott, Ising, Mandelbrot and the Navier-Stokes fluid, with their numerical validation.
+
 ### `// 06` Maintaining the catalog
 
 ```bash
