@@ -92,8 +92,8 @@ To add an entry, add it to `datos/catalogo.py` and run both scripts. Paths in th
 
 | | |
 |---|---|
-| **Nicolás Moreno**<br>[@4mser](https://github.com/4mser) | Co-founder of B&N Solutions and software engineer. Builds the animation engine, the simulations and the videos. |
-| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Co-founder of B&N Solutions and physics engineer. Made the series' original reel and its simulation engine. |
+| **Nicolás Moreno**<br>[@4mser](https://github.com/4mser) | Co-founder of B&N Solutions and software engineer. Created the B&N Lab simulation engine and builds the animations and the videos. |
+| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Co-founder of B&N Solutions and physics engineer. Made the series' original reel, «De lo discreto a lo continuo». |
 | **Javier Patiño** | Physics graduate and Electricity and Magnetism lecturer. Author of the notes the classes are based on, and the voice of B&N Lectures. |
 
 ### `// 08` License

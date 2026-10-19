@@ -1,6 +1,6 @@
 # Helpers de la serie de electromagnetismo (`src/lab/`)
 
-Motor de simulación de la serie, creado por Benjamín Campos para el reel «De lo discreto a lo continuo» ([BN_Electromagnetismo](https://github.com/B3njjaman/BN_Electromagnetismo)) y publicado aquí con su autorización.
+Motor de simulación de la serie, creado por Nicolás Moreno para B&N Lab ([bn-lab-simulations](https://github.com/4mser/bn-lab-simulations)). Benjamín Campos lo usó para el reel «De lo discreto a lo continuo» ([BN_Electromagnetismo](https://github.com/B3njjaman/BN_Electromagnetismo)), y de esa versión sale el módulo publicado aquí.
 
 Origen: `plantilla/src/lab/`. Son idénticos en los cinco videos de la serie, salvo `luz.ts` de `ley-de-coulomb`, que tiene cambios propios (ver el catálogo).
 
