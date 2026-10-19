@@ -1,4 +1,6 @@
-# Biblioteca de simulaciones B&N
+# Catálogo de simulaciones B&N
+
+[← Volver al README](README.md)
 
 Este es el catálogo de todas las simulaciones y efectos de los videos de B&N: la serie de electromagnetismo, el reel original y todas las versiones del teaser de B&N Lectures, incluidas las que se habían sobrescrito y se recuperaron de las transcripciones de los agentes.
 
@@ -6,9 +8,9 @@ Este es el catálogo de todas las simulaciones y efectos de los videos de B&N: l
 - **`modulos/`:** copias limpias de las piezas más reutilizables, cada una con un `LEEME.md` que explica cómo integrarla.
 - **`herramientas/`:**
   - `miniaturas.py` saca las miniaturas;
-  - `catalogo.py` genera este README desde `datos/catalogo.py`. Para agregar una entrada, edítala allí y vuelve a ejecutar los dos últimos.
+  - `catalogo.py` genera este catálogo desde `datos/catalogo.py`. Para agregar una entrada, edítala allí y vuelve a ejecutar los dos últimos.
 
-Las rutas de las columnas «Dónde» y del mapa de versiones son relativas a la carpeta de trabajo de B&N, donde viven los proyectos de origen; de ellos, este repositorio publica solo el teaser final (`../teaser/`) y los módulos de `modulos/`. Las versiones anteriores del teaser se leían con `git -C teaser-lectures show <tag>:<archivo>`. Para regenerar las miniaturas hace falta esa carpeta: `BN_VIDEOS=<ruta> python3 herramientas/miniaturas.py`.
+Las rutas de las columnas «Dónde» y del mapa de versiones son relativas a la carpeta de trabajo de B&N, donde viven los proyectos de origen; de ellos se publican el teaser final ([bn-lectures-teaser](https://github.com/4mser/bn-lectures-teaser)), las clases de la serie ([bn-lectures-clases](https://github.com/4mser/bn-lectures-clases)) y, en este repositorio, los módulos de `modulos/`. Las versiones anteriores del teaser se leían con `git -C teaser-lectures show <tag>:<archivo>`. Para regenerar las miniaturas hace falta esa carpeta: `BN_VIDEOS=<ruta> python3 herramientas/miniaturas.py`.
 
 ## Mapa de versiones: de qué código salió cada video
 
@@ -79,20 +81,20 @@ Nada de `entregables/` se movió ni se sobrescribió. Lo nuevo está en `entrega
 
 ## Índice
 
-- [Campo eléctrico](#campo-electrico) (79)
-- [Gravedad y órbitas](#gravedad-y-orbitas) (13)
+- [Campo eléctrico](#campo-eléctrico) (79)
+- [Gravedad y órbitas](#gravedad-y-órbitas) (13)
 - [Ondas](#ondas) (9)
 - [Fluidos](#fluidos) (2)
-- [Cuántica](#cuantica) (6)
+- [Cuántica](#cuántica) (6)
 - [Caos](#caos) (4)
 - [Fractales](#fractales) (6)
-- [Geometría y topología](#geometria-y-topologia) (9)
-- [Computación e IA](#computacion-e-ia) (5)
+- [Geometría y topología](#geometría-y-topología) (9)
+- [Computación e IA](#computación-e-ia) (5)
 - [Probabilidad](#probabilidad) (2)
-- [Tipografía y créditos](#tipografia-y-creditos) (15)
+- [Tipografía y créditos](#tipografía-y-créditos) (15)
 - [Finales y logo](#finales-y-logo) (16)
 - [Motores y efectos de postproceso](#motores-y-efectos-de-postproceso) (16)
-- [Música y análisis de audio](#musica-y-analisis-de-audio) (10)
+- [Música y análisis de audio](#música-y-análisis-de-audio) (10)
 
 ## Campo eléctrico
 

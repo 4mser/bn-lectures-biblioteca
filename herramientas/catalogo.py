@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate README.md (Spanish catalog) from datos/catalogo.py. Usage: python3 herramientas/catalogo.py"""
+"""Generate CATALOGO.md (Spanish catalog) from datos/catalogo.py. Usage: python3 herramientas/catalogo.py"""
 import os
 import sys
 
@@ -7,7 +7,9 @@ BIB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BIB, "datos"))
 import catalogo as C  # noqa: E402
 
-CABEZA = """# Biblioteca de simulaciones B&N
+CABEZA = """# Catálogo de simulaciones B&N
+
+[← Volver al README](README.md)
 
 Este es el catálogo de todas las simulaciones y efectos de los videos de B&N: la serie de electromagnetismo, el reel original y todas las versiones del teaser de B&N Lectures, incluidas las que se habían sobrescrito y se recuperaron de las transcripciones de los agentes.
 
@@ -15,9 +17,9 @@ Este es el catálogo de todas las simulaciones y efectos de los videos de B&N: l
 - **`modulos/`:** copias limpias de las piezas más reutilizables, cada una con un `LEEME.md` que explica cómo integrarla.
 - **`herramientas/`:**
   - `miniaturas.py` saca las miniaturas;
-  - `catalogo.py` genera este README desde `datos/catalogo.py`. Para agregar una entrada, edítala allí y vuelve a ejecutar los dos últimos.
+  - `catalogo.py` genera este catálogo desde `datos/catalogo.py`. Para agregar una entrada, edítala allí y vuelve a ejecutar los dos últimos.
 
-Las rutas de las columnas «Dónde» y del mapa de versiones son relativas a la carpeta de trabajo de B&N, donde viven los proyectos de origen; de ellos, este repositorio publica solo el teaser final (`../teaser/`) y los módulos de `modulos/`. Las versiones anteriores del teaser se leían con `git -C teaser-lectures show <tag>:<archivo>`. Para regenerar las miniaturas hace falta esa carpeta: `BN_VIDEOS=<ruta> python3 herramientas/miniaturas.py`.
+Las rutas de las columnas «Dónde» y del mapa de versiones son relativas a la carpeta de trabajo de B&N, donde viven los proyectos de origen; de ellos se publican el teaser final ([bn-lectures-teaser](https://github.com/4mser/bn-lectures-teaser)), las clases de la serie ([bn-lectures-clases](https://github.com/4mser/bn-lectures-clases)) y, en este repositorio, los módulos de `modulos/`. Las versiones anteriores del teaser se leían con `git -C teaser-lectures show <tag>:<archivo>`. Para regenerar las miniaturas hace falta esa carpeta: `BN_VIDEOS=<ruta> python3 herramientas/miniaturas.py`.
 
 ## Mapa de versiones: de qué código salió cada video
 
@@ -98,7 +100,7 @@ def main():
     out.append("## Índice\n")
     for g, nombre in C.GRUPOS:
         k = sum(1 for e in E if e[1] == g)
-        ancla = nombre.lower().replace(" ", "-").replace("é", "e").replace("í", "i").replace("á", "a").replace("ó", "o").replace("ú", "u")
+        ancla = nombre.lower().replace(" ", "-")  # GitHub keeps accented letters in heading anchors
         out.append(f"- [{nombre}](#{ancla}) ({k})")
     out.append("")
     for g, nombre in C.GRUPOS:
@@ -117,8 +119,8 @@ def main():
     out.append("- Los mp4 originales de v1 y v2 se perdieron. Los de `entregables/archivo/` son re-renders del código reconstruido, no los archivos originales, aunque cuadro a cuadro coinciden con las capturas que quedaron.")
     out.append("- No hay estados intermedios dentro de cada versión, solo el estado al entregar. La excepción son las dos previas del final.")
     out.append("- `teaser-v6` sigue en desarrollo: su catálogo y su `simular.py` reflejan el 18 oct a las 02:10, y sus miniaturas son capturas existentes de `teaser-v6/out/rev2/`.")
-    open(os.path.join(BIB, "README.md"), "w", encoding="utf-8").write("\n".join(out) + "\n")
-    print("README.md:", len(E), "entradas")
+    open(os.path.join(BIB, "CATALOGO.md"), "w", encoding="utf-8").write("\n".join(out) + "\n")
+    print("CATALOGO.md:", len(E), "entradas")
 
 
 if __name__ == "__main__":
