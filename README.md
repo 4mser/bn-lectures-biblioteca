@@ -90,19 +90,11 @@ Para sumar una entrada, agrégala en `datos/catalogo.py` y corre los dos scripts
 
 ### `// 07` Equipo
 
-**Nicolás Moreno** · [@4mser](https://github.com/4mser) · [LinkedIn](https://www.linkedin.com/in/nicolasmorenoavila)<br>
-Dirección creativa y técnica de B&N Lectures. En esta biblioteca diseñó y programó:
-
-- los simuladores físicos: Schrödinger 2D, fluidos, Gray-Scott, LIC del campo, Chladni y Lorenz en GPU;
-- el motor de animación en canvas y WebGL2 del que salen la mayoría de las entradas;
-- el análisis de música y la sincronía de cada cuadro con la canción;
-- el catálogo de 192 simulaciones, sus miniaturas y los módulos reutilizables.
-
-**Benjamín Campos** · [@B3njjaman](https://github.com/B3njjaman)<br>
-Cofundador de B&N Solutions. Creó el reel original «De lo discreto a lo continuo» y el motor de simulación de la serie, publicado aquí como el módulo `lab-serie` con su autorización, bajo la misma licencia MIT.
-
-**Javier Patiño**<br>
-Licenciado en Física y profesor. Autor de los apuntes y demostraciones de Electricidad y Magnetismo en los que se basan las clases, y la voz de B&N Lectures.
+| | |
+|---|---|
+| **Nicolás Moreno**<br>[@4mser](https://github.com/4mser) | Cofundador de B&N Solutions e ingeniero de software. Desarrolla el motor de animación, las simulaciones y los videos. |
+| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Cofundador de B&N Solutions e ingeniero físico. Creó el reel original de la serie y su motor de simulación. |
+| **Javier Patiño** | Licenciado en Física y profesor de Electricidad y Magnetismo. Autor de los apuntes en que se basan las clases y la voz de B&N Lectures. |
 
 ### `// 08` Licencia
 

@@ -90,19 +90,11 @@ To add an entry, add it to `datos/catalogo.py` and run both scripts. Paths in th
 
 ### `// 07` Team
 
-**Nicolás Moreno** · [@4mser](https://github.com/4mser) · [LinkedIn](https://www.linkedin.com/in/nicolasmorenoavila)<br>
-Creative and technical director of B&N Lectures. In this library he designed and programmed:
-
-- the physics simulators: 2D Schrödinger, fluids, Gray-Scott, field LIC, Chladni and Lorenz on the GPU;
-- the canvas and WebGL2 animation engine most entries come from;
-- the music analysis and the sync of every frame to the song;
-- the catalog of 192 simulations, its thumbnails and the reusable modules.
-
-**Benjamín Campos** · [@B3njjaman](https://github.com/B3njjaman)<br>
-Co-founder of B&N Solutions. He made the original reel «De lo discreto a lo continuo» and the series' simulation engine, published here as the `lab-serie` module with his permission, under the same MIT license.
-
-**Javier Patiño**<br>
-Physics graduate and lecturer. Author of the Electricity and Magnetism notes and derivations the lessons are based on, and the voice of B&N Lectures.
+| | |
+|---|---|
+| **Nicolás Moreno**<br>[@4mser](https://github.com/4mser) | Co-founder of B&N Solutions and software engineer. Builds the animation engine, the simulations and the videos. |
+| **Benjamín Campos**<br>[@B3njjaman](https://github.com/B3njjaman) | Co-founder of B&N Solutions and physics engineer. Made the series' original reel and its simulation engine. |
+| **Javier Patiño** | Physics graduate and Electricity and Magnetism lecturer. Author of the notes the classes are based on, and the voice of B&N Lectures. |
 
 ### `// 08` License
 
